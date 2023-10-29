@@ -17,7 +17,7 @@ export default function FoodOnScroll() {
   const [scrollY, setScrollY] = useState(0);
 
   function saveScrollY() {
-    if (window.scrollY > 200 && window.scrollY < 700)
+    if (window.scrollY > 200 && window.scrollY < 1000)
       setScrollY((window.scrollY - 200) / 7);
   }
 
@@ -103,13 +103,21 @@ export default function FoodOnScroll() {
           </InfoCard>
         </FoodInfoRight>
       </FoodOnScrollSection>
-      <OrderButton className="my-40 rounded-md shadow md:mb-40 md:mt-12">
-        <a
-          href="#"
-          className="bg-primary hover:bg-primary-dark flex w-full items-center justify-center rounded-md border border-transparent px-8 py-3 text-base font-medium text-white md:px-10 md:py-4 md:text-lg"
+      <OrderButton className="rounded-md shadow">
+        <button
+          type="button"
+          className="bg-primary hover:bg-secondary inline-flex w-full justify-center rounded-md px-5 py-3 text-sm text-white shadow-sm"
         >
-          Get started
-        </a>
+          <div className="flex items-center gap-2 px-4">
+            <Image
+              src="/dogsteroo_logo.svg"
+              width={64}
+              height={64}
+              alt="Your Company"
+            />
+            Build your plan
+          </div>
+        </button>
       </OrderButton>
     </>
   );

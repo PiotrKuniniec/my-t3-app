@@ -25,7 +25,7 @@ export default function Hero() {
           <div className="mt-5 flex flex-wrap gap-2 sm:mt-8 sm:justify-start lg:justify-start">
             <button
               type="button"
-              className="bg-primary hover:bg-secondary inline-flex w-full min-w-[120px] max-w-[120px] justify-center rounded-md px-5 py-3 text-sm text-white shadow-sm sm:ml-3"
+              className="bg-primary hover:bg-secondary inline-flex w-full min-w-[120px] max-w-[120px] justify-center rounded-md px-5 py-3 text-sm text-white shadow-sm"
             >
               Get started
             </button>
