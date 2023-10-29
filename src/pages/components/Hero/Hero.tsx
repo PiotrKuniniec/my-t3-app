@@ -26,13 +26,13 @@ export default function Hero() {
             <div className="mt-5 flex gap-2 sm:mt-8 sm:justify-start lg:justify-start">
               <button
                 type="button"
-                className="inline-flex w-full justify-center rounded-md bg-orange-500 px-3 py-2 text-sm text-white shadow-sm hover:bg-orange-300 sm:ml-3 sm:w-auto"
+                className="bg-primary hover:bg-secondary inline-flex w-full justify-center rounded-md px-5 py-3 text-sm text-white shadow-sm sm:ml-3 sm:w-auto"
               >
                 Get started
               </button>
               <button
                 type="button"
-                className="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm text-gray-900 shadow-sm ring-1 ring-inset ring-orange-500 hover:bg-orange-500 hover:text-white sm:mt-0 sm:w-auto"
+                className="ring-primary hover:bg-secondary hover:ring-secondary text-primary inline-flex w-full justify-center rounded-md bg-white px-5 py-3 text-sm shadow-sm ring-1 ring-inset hover:text-white sm:ml-3 sm:w-auto"
               >
                 See our products
               </button>

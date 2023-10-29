@@ -5,7 +5,7 @@ export const FoodOnScrollSection = styled.section`
   grid-column: center-start / center-end;
   display: flex;
   //flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 5rem;
   //max-width: 45rem;
   width: 100%;

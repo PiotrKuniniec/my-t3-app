@@ -25,8 +25,8 @@ const NavButton = ({
       href={href}
       className={classNames(
         active
-          ? "bg-orange-500 text-white"
-          : "text-gray-300 hover:bg-orange-300 hover:text-white",
+          ? "bg-primary text-white"
+          : "hover:bg-secondary text-gray-300 hover:text-white",
         "block rounded-md px-3 py-2 text-base font-medium",
       )}
     >
