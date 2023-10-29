@@ -15,7 +15,7 @@ export const FoodChangeContainer = styled.div`
   display: flex;
   padding: 5px;
   width: 100%;
-  max-width: 45rem;
+  max-width: 40rem;
   //order: 1;
 `;
 

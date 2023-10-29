@@ -18,7 +18,7 @@ export default function FoodOnScroll() {
 
   function saveScrollY() {
     if (window.scrollY > 200 && window.scrollY < 700)
-      setScrollY((window.scrollY - 200) / 5);
+      setScrollY((window.scrollY - 200) / 7);
   }
 
   useEffect(() => {
